@@ -1,0 +1,9 @@
+.ProductItem img{
+  width:100%;
+  height:100%;
+  transition: 0.5s;
+}
+.ProductItem:hover img{
+  transform: scale(1.08);
+  border: 1px solid #000;
+}

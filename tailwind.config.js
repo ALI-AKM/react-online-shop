@@ -11,6 +11,7 @@ export default {
       'third':"#124E66",
       'fourth':"#748D92",
       'fifth':"#D3D9D4",
+      'fifth':"#E1E6E2",
     },
     },
   },

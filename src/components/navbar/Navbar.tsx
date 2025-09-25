@@ -3,7 +3,7 @@ import Container from "../container/Container.tsx";
 
 function Navbar(){
   return(<>
-  <ul className=" flex  bg-primary">
+  <ul className=" flex  bg-primary mb-5">
   <Container>
     <div className="flex">
   <div className="flex  basis-1/3  items-center">

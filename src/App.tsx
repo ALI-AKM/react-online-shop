@@ -3,6 +3,7 @@ import './App.css'
 import Home from './pages/home/Home'
 import Store from './pages/store/Store'
 import Layout from './components/layout/Layout'
+import Product from './pages/product/Product'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path="/store" element={<Store/>}/>
+      <Route path="/Product/:id" element={<Product/>}/>
     </Routes>
     </Layout>
     </>
